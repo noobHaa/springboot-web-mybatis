@@ -1,17 +1,17 @@
-package com.springboot.config.mapper;
+package com.springboot.mapper;
 
-import com.springboot.config.bean.Department;
+import com.springboot.bean.Department;
 import org.apache.ibatis.annotations.*;
 
 /**
  * @ProjectName: springboot-web-mybatis
- * @Package: com.springboot.config.mapper
+ * @Package: com.springboot.mapper
  * @ClassName: DepartmentMapper
  * @Author: gnnt
  * @Date: 2019/1/25 17:03
  * @Version: 1.0
  */
-@Mapper
+//@Mapper
 public interface DepartmentMapper {
 
     @Select("select * from department where id=#{id}")

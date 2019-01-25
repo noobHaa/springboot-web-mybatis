@@ -1,7 +1,7 @@
-package com.springboot.config.controller;
+package com.springboot.controller;
 
-import com.springboot.config.bean.Department;
-import com.springboot.config.mapper.DepartmentMapper;
+import com.springboot.bean.Department;
+import com.springboot.mapper.DepartmentMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ProjectName: springboot-web-mybatis
- * @Package: com.springboot.config.controller
+ * @Package: com.springboot.controller
  * @ClassName: DeptController
  * @Author: gnnt
  * @Date: 2019/1/25 16:52

@@ -1,8 +1,8 @@
-package com.springboot.config.bean;
+package com.springboot.bean;
 
 /**
  * @ProjectName: springboot-web-mybatis
- * @Package: com.springboot.config.bean
+ * @Package: com.springboot.bean
  * @ClassName: Employee
  * @Author: gnnt
  * @Date: 2019/1/25 16:53

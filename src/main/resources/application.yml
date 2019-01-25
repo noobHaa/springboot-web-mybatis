@@ -4,10 +4,10 @@ spring:
     password: root
     url: jdbc:mysql://127.0.0.1:3306/mybatis
     driver-class-name: com.mysql.jdbc.Driver
-    schema:
-      - classpath:sql/department.sql
-      - classpath:sql/employee.sql
-    initialization-mode: always
+#    schema:
+#      - classpath:sql/department.sql
+#      - classpath:sql/employee.sql
+#    initialization-mode: always
     type: com.alibaba.druid.pool.DruidDataSource
     #   数据源其他配置
     initialSize: 5
